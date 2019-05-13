@@ -6,20 +6,20 @@
 name:               "Data Mining Lab"
 
 author:
-  # facebook:         your-id
-  # youtubeUser:      your-id
-  # youtubeChannel:   your-id
-  # twitter:          your-id
+  facebook:         your-id
+  youtubeUser:      your-id
+  youtubeChannel:   your-id
+  twitter:          your-id
   github:           datamininglab
-  # stackoverflow:    your-id
-  # quora:            your-id
-  # linkedin:         your-id
-  # pinterest:        your-id
-  # googlePlus:       your-id
-  # instagram:        your-id
-  # reddit:           your-id
-  # medium:           your-id
-  # tumblr:           your-id
+  stackoverflow:    your-id
+  quora:            your-id
+  linkedin:         your-id
+  pinterest:        your-id
+  googlePlus:       your-id
+  instagram:        your-id
+  reddit:           your-id
+  medium:           your-id
+  tumblr:           your-id
   email:            kdj2614@naver.com
 
 copyright:
@@ -37,7 +37,7 @@ disqus:
 # URL
 url:                "https://datamininglab.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/" # the subpath of your site, e.g. /blog
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

@@ -1,0 +1,29 @@
+<!-- ---
+layout: page
+title: News
+---
+<div class="publication">
+    <div class="publication-list">
+        {% if site.categories.publication.size == 0 %}
+        <h2>No publication found</h2>
+        {% else %}
+        {% for post in site.categories.publication %}
+        <div class="publication-list-post">
+            {% if post.link %}
+            <a href="{{ post.link }}">
+                {% else %}
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    {% endif %}
+                    <span class="publication-list-post-title">
+                        {{ post.title }}
+                    </span>
+                    <span class="publication-list-post-date">
+                        <time>| {{ post.date | date_to_string }}</time>
+                        <time>| {{ post.description }}</time>
+                    </span>
+                </a>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div> -->

@@ -36,10 +36,19 @@ body {
   margin-bottom: 1.5em;
 
   &-title {
-    margin: 0.3em 0;
+    margin: 0.3em 0 0;
     font-size: 2.25em;
     line-height: 1.2em;
     font-weight: 600;
+
+    display: inline-block;
+
+
+    img {
+        height: 1.2em;
+        float: left;
+        margin-right: 0.3em;
+    }
 
     a {
       color: $base-color;
@@ -220,7 +229,7 @@ body {
   }
 
   &-pagination {
-    margin-top: 4rem;
+    // margin-top: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     // text-transform: lowercase;
@@ -326,41 +335,153 @@ body {
 }
 
 /*--------------
-  Archive
+  Publication
   -------------- */
-.archive {
+.publication {
   &-list {
     &-post {
-      padding: 0.1rem;
+      margin-bottom: .5rem;
 
-      &:hover {
-          background-color: $background-over-color;
-          border-color: transparent;
-      }
+      &-content {
+        padding: 0.1rem;
 
-      a {
-        color: $base-color;
+        &:hover {
+            background-color: $background-over-color;
+            border-color: transparent;
+            border-radius: 4px;
+        }
 
-        &:hover,
-        &:focus {
-          text-decoration: none;
+        a {
+            color: $base-color;
+
+            &:hover,
+            &:focus {
+            text-decoration: none;
+            }
+        }
+
+        &-title {
+            font-size : 1.2rem;
+            font-weight: 400;
+        }
+
+        &-description {
+            color: $base-lighten-color;
+            font-size: .75rem;
+        }
+
+        &-date {
+            color: $base-lighten-color;
+            font-size: .75rem;
+            text-transform: uppercase;
         }
       }
-
-      &-title {
-        font-size : 1.2rem;
-        font-weight: 400;
-      }
-
-      &-date {
-        color: $base-lighten-color;
-        font-size: .75rem;
-        text-transform: uppercase;
+      &-file {
+        a {
+          text-decoration: underline;
+        }
       }
     }
   }
 }
 
+/*--------------
+  Seminar
+  -------------- */
+.seminar {
+  &-list {
+    &-post {
+      margin-bottom: .5rem;
+      
+      &-content {
+        padding: 0.1rem;
+
+        &:hover {
+            background-color: $background-over-color;
+            border-color: transparent;
+            border-radius: 4px;
+        }
+
+        a {
+            color: $base-color;
+
+            &:hover,
+            &:focus {
+            text-decoration: none;
+            }
+        }
+
+        &-title {
+            font-size : 1.2rem;
+            font-weight: 400;
+        }
+
+        &-description {
+            color: $base-lighten-color;
+            font-size: .75rem;
+        }
+
+        &-date {
+            color: $base-lighten-color;
+            font-size: .75rem;
+            text-transform: uppercase;
+        }
+      }
+
+      &-file {
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/*--------------
+  Research
+  -------------- */
+.research {
+  &-list {
+    &-post {
+      margin-bottom: .5rem;
+      
+      &-content {
+        padding: 0.1rem;
+
+        &:hover {
+            background-color: $background-over-color;
+            border-color: transparent;
+            border-radius: 4px;
+        }
+
+        a {
+            color: $base-color;
+
+            &:hover,
+            &:focus {
+            text-decoration: none;
+            }
+        }
+
+        &-title {
+            font-size : 1.2rem;
+            font-weight: 400;
+        }
+
+        &-description {
+            color: $base-lighten-color;
+            font-size: .75rem;
+        }
+
+        &-date {
+            color: $base-lighten-color;
+            font-size: .75rem;
+            text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
 
 /*--------------
   Footer

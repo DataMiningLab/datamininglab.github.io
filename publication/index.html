@@ -1,0 +1,40 @@
+---
+layout: page
+title: Publication
+---
+
+<div class="publication">
+    <div class="publication-list">
+        {% if site.categories.publication.size == 0 %}
+        <h2>No publication found</h2>
+        {% else %}
+        {% for post in site.categories.publication %}
+        <div class="publication-list-post">
+            <div class="publication-list-post-content">
+                <!-- 바로 paper link -->
+                {% if post.link %}
+                <a href="{{ post.link }}">
+                {% else %}
+                <!-- 관련 글이 있을 경우? -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    {% endif %}
+                    <span class="publication-list-post-content-title">
+                        {{ post.title }}
+                    </span><br>
+                    {% if post.description %}
+                    <span class="publication-list-post-content-description">
+                        {{ post.description }}
+                    </span>
+                    {% endif %}
+                </a>
+            </div>
+            {% if post.paper %}
+            <div class="publication-list-post-file">
+                <a href="{{ post.paper }}">paper</a>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>

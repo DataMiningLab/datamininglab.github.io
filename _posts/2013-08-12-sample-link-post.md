@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sample Link Post
-description: "This theme supports link posts, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done."
-tags:
-  - sample post
-  - link post
+title: "l-Injection: Toward Effective Collaborative Filtering using Uninteresting Items"
+description: "Jongwuk Lee, Won-Seok Hwang, Juan Parc, Youngnam Lee, Sang-Wook Kim, Dongwon Lee<br>IEEE Transactions on Knowledge and Data Engineering (TKDE), Jan 2019"
+tags: [sample_post, link_post]
+categories: [publication]
 comments: true
-link: 'http://aweekj.github.io/Kiko-plus'
+link: 
+paper: 'https://ieeexplore.ieee.org/document/7913668'
 ---

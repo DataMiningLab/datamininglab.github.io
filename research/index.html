@@ -1,0 +1,36 @@
+---
+layout: page
+title: Research
+---
+
+<div class="research">
+    <div class="research-list">
+        {% if site.categories.research.size == 0 %}
+        <h2>No research found</h2>
+        {% else %}
+        {% for post in site.categories.research %}
+        <div class="research-list-post">
+            <div class="research-list-post-content">
+                {% if post.link %}
+                <a href="{{ post.link }}">
+                    {% else %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        {% endif %}
+                        <span class="publication-list-post-content-date">
+                            <time>{{ post.date | date_to_string }}</time> | {{ post.author }}
+                        </span><br>
+                        <span class="research-list-post-content-title">
+                            {{ post.title }}
+                        </span><br>
+                        {% if post.description %}
+                        <span class="research-list-post-content-description">
+                            {{ post.description }}
+                        </span>
+                        {% endif %}
+                    </a>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>

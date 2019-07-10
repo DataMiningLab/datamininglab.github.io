@@ -6,20 +6,20 @@
 name:               "Data Mining Lab"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
+  # facebook:         your-id
+  # youtubeUser:      your-id
+  # youtubeChannel:   your-id
+  # twitter:          your-id
   github:           datamininglab
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
+  # stackoverflow:    your-id
+  # quora:            your-id
+  # linkedin:         your-id
+  # pinterest:        your-id
+  # googlePlus:       your-id
+  # instagram:        your-id
+  # reddit:           your-id
+  # medium:           your-id
+  # tumblr:           your-id
   email:            kdj2614@naver.com
 
 copyright:
@@ -45,7 +45,7 @@ timezone:           Asia/Seoul
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           7
 paginate_path:      /page:num/
 
 # Markdown
@@ -57,12 +57,20 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/DataMiningLab"
+  - name:           "Member"
+    url:            "/member"
+  - name:           "News"
+    url:            "/news"
+  - name:           "Publication"
+    url:            "/publication"
+  - name:           "Seminar"
+    url:            "/seminar"
+  - name:           "Research"
+    url:            "/research"
+  # - name:           "Tags"
+  #   url:            "/tags"
+  # - name:           "Github"
+  #   url:            "https://github.com/DataMiningLab"
 
 # Sass
 sass:
@@ -85,9 +93,11 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
 
 exclude:            [vendor]
+
+future: true

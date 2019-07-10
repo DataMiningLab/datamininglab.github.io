@@ -43,7 +43,6 @@ body {
 
     display: inline-block;
 
-
     img {
         height: 1.2em;
         float: left;
@@ -135,7 +134,6 @@ body {
   }
 
    &-tag {
-    margin-bottom: 1.5rem;
 
     ul {
       li:before {
@@ -177,6 +175,23 @@ body {
           background-color: $oc-gray-7;
         }
       }
+    }
+  }
+
+  &-file {
+    margin-bottom: 1.5rem;
+    line-height: 1.2em;
+
+    img {
+        height: 1.2em;
+        float: left;
+        margin-right: .2em;
+    }
+
+    a {
+        font-size: .8rem;
+        text-decoration: underline;
+        margin-right: .5em;
     }
   }
 

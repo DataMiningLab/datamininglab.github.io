@@ -32,6 +32,16 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+  <div class="post-file">
+    {% if page.pdf %}
+    <!-- <img src="/images/pdf_icon.svg"/> -->
+    <a href="{{ page.pdf }}">download pdf</a>
+    {% endif %}
+    {% if page.ppt %}
+    <!-- <img src="/images/ppt_icon.svg" /> -->
+    <a href="{{ page.ppt }}">download slide</a>
+    {% endif %}
+  </div>
 
   {{ content }}
 

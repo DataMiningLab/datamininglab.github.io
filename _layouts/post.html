@@ -44,6 +44,8 @@ layout: default
   </div>
 
   {{ content }}
+  
+  {% include author_mark.html %}
 
   <!-- Disqus -->
   {% if page.comments != false and site.disqus.id %}

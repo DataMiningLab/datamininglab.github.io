@@ -350,6 +350,72 @@ body {
 }
 
 /*--------------
+  Authors
+  -------------- */
+.author {
+
+  &-mark {
+      margin-top: 3em;
+      font-style: italic;
+      font-size: .8em;
+  }
+
+  &-name {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  &-post {
+      margin-bottom: .5rem;
+
+      &-content {
+        padding: 0.1rem;
+
+        &:hover {
+            background-color: $background-over-color;
+            border-color: transparent;
+            border-radius: 4px;
+        }
+
+        a {
+            color: $base-color;
+
+            &:hover,
+            &:focus {
+            text-decoration: none;
+            }
+        }
+
+        &-title {
+            font-size : 1.2rem;
+            font-weight: 400;
+        }
+
+        &-description {
+            // color: $base-lighten-color;
+            color: $base-color;
+            font-size: .75rem;
+        }
+
+        &-date {
+            color: $base-lighten-color;
+            font-size: .75rem;
+            text-transform: uppercase;
+        }
+      }
+      &-file {
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+
+}
+
+/*--------------
   Publication
   -------------- */
 .publication {
@@ -381,7 +447,8 @@ body {
         }
 
         &-description {
-            color: $base-lighten-color;
+            // color: $base-lighten-color;
+            color: $base-color;
             font-size: .75rem;
         }
 
@@ -432,7 +499,8 @@ body {
         }
 
         &-description {
-            color: $base-lighten-color;
+            // color: $base-lighten-color;
+            color: $base-color;
             font-size: .75rem;
         }
 
@@ -484,7 +552,8 @@ body {
         }
 
         &-description {
-            color: $base-lighten-color;
+            // color: $base-lighten-color;
+            color: $base-color;
             font-size: .75rem;
         }
 

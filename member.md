@@ -3,7 +3,7 @@ title: Member
 permalink: /member/
 ---
 
-Members of Data Mining Lab
+This ismembers of Data Mining Lab
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
 ## Features

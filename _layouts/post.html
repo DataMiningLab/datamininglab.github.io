@@ -45,7 +45,9 @@ layout: default
 
   {{ content }}
   
+  {% if page.author %}
   {% include author_mark.html %}
+  {% endif %}
 
   <!-- Disqus -->
   {% if page.comments != false and site.disqus.id %}

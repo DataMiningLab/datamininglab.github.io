@@ -38,11 +38,11 @@ layout: default
                 {% else %}
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     {% endif %}
-                    <span class="author-post-content-date">
-                        POSTED ON <time>{{ post.date | date_to_string }}</time>
-                    </span><br>
                     <span class="author-post-content-title">
                         {{ post.title }}
+                    </span>
+                    <span class="author-post-content-date">
+                        posted on <time>{{ post.date | date_to_string }}</time>
                     </span><br>
                     {% if post.description %}
                     <span class="author-post-content-description">

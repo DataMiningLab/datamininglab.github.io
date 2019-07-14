@@ -16,12 +16,13 @@ title: News
                     {% else %}
                     <a href="{{ post.url | prepend: site.baseurl }}">
                         {% endif %}
-                        <span class="news-list-post-content-date">
-                            <time>{{ post.date | date_to_string }}</time>
-                        </span><br>
                         <span class="news-list-post-content-title">
                             {{ post.title }}
-                        </span><br>
+                        </span>
+                        <span class="news-list-post-content-date">
+                            <time>{{ post.date | date_to_string }}</time>
+                        </span>
+                        <br>
                         {% if post.description %}
                         <span class="news-list-post-content-description">
                             {{ post.description }}

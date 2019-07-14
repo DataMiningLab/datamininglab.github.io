@@ -71,6 +71,7 @@ body {
          -moz-transition: all .2s ease;
               transition: all .2s ease;
       margin-right: .3rem;
+      font-weight: 400;
 
       &:hover,
       &:focus {
@@ -444,19 +445,20 @@ body {
 
         &-title {
             font-size : 1.2rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &-description {
             // color: $base-lighten-color;
             color: $base-color;
-            font-size: .75rem;
+            font-size: 1rem;
         }
 
         &-date {
             color: $base-lighten-color;
             font-size: .75rem;
-            text-transform: uppercase;
+            // text-transform: uppercase;
+            margin-left: .2rem;
         }
       }
       &-file {
@@ -496,19 +498,20 @@ body {
 
         &-title {
             font-size : 1.2rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &-description {
             // color: $base-lighten-color;
             color: $base-color;
-            font-size: .75rem;
+            font-size: 1rem;
         }
 
         &-date {
             color: $base-lighten-color;
             font-size: .75rem;
-            text-transform: uppercase;
+            // text-transform: uppercase;
+            margin-left: .2rem;
         }
       }
 
@@ -550,13 +553,13 @@ body {
 
         &-title {
             font-size : 1.2rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &-description {
             // color: $base-lighten-color;
             color: $base-color;
-            font-size: .75rem;
+            font-size: 1rem;
         }
 
         &-date {
@@ -602,19 +605,20 @@ body {
 
         &-title {
             font-size : 1.2rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &-description {
             // color: $base-lighten-color;
             color: $base-color;
-            font-size: .75rem;
+            font-size: 1rem;
         }
 
         &-date {
             color: $base-lighten-color;
             font-size: .75rem;
-            text-transform: uppercase;
+            // text-transform: uppercase;
+            margin-left: .2rem;
         }
       }
 
@@ -655,19 +659,20 @@ body {
 
         &-title {
             font-size : 1.2rem;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         &-description {
             // color: $base-lighten-color;
             color: $base-color;
-            font-size: .75rem;
+            font-size: 1rem;
         }
 
         &-date {
             color: $base-lighten-color;
             font-size: .75rem;
-            text-transform: uppercase;
+            // text-transform: uppercase;
+            margin-left: .2rem;
         }
       }
     }

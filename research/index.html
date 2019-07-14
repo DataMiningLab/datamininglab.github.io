@@ -16,11 +16,11 @@ title: Research
                     {% else %}
                     <a href="{{ post.url | prepend: site.baseurl }}">
                         {% endif %}
-                        <span class="research-list-post-content-date">
-                            <time>{{ post.date | date_to_string }}</time> | {{ post.author }}
-                        </span><br>
                         <span class="research-list-post-content-title">
                             {{ post.title }}
+                        </span>
+                        <span class="research-list-post-content-date">
+                            by {{ post.author }}, <time>{{ post.date | date_to_string }}</time>
                         </span><br>
                         {% if post.description %}
                         <span class="research-list-post-content-description">

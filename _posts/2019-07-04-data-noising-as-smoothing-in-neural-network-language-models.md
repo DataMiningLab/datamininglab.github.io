@@ -6,7 +6,7 @@ date: 2019-07-04
 categories: ["seminar", "research"]
 tags: ["language model", "noising"]
 comments: true
-author: "문경진"
+author: Kyungjin Moon
 pdf: "https://drive.google.com/open?id=1MWJsKDb_zVfjrdo-U4rAZti6Zvy9Bd1S"
 ppt: "https://drive.google.com/open?id=10ltfFMiphn5MXHQ1mLm_a2oMVaXXNKJ2"
 ---

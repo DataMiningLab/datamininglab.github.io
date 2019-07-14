@@ -350,6 +350,53 @@ body {
 }
 
 /*--------------
+  Members
+  -------------- */
+.members {
+  &-job {
+    margin-bottom: .5rem;
+    font-size : 1.4rem;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+
+  &-info {
+    margin-bottom: 0.5rem;
+    padding: 0.1rem;
+
+    &:hover {
+        background-color: $background-over-color;
+        border-color: transparent;
+        border-radius: 4px;
+    }
+
+    a {
+        color: $base-color;
+        &:hover,
+        &:focus {
+        text-decoration: none;
+        }
+    }
+
+    &-name {
+      color: $base-color;
+      margin-bottom: .3rem;
+      font-size : 1rem;
+    //   font-weight: 600;
+    }
+
+    &-desc{
+    //   color: $base-color;
+    //   margin-bottom: .25rem;
+    //   font-size :1rem;
+        color: $base-lighten-color;
+        font-size: .8rem;
+        // text-transform: uppercase;
+    }
+  }
+}
+
+/*--------------
   Authors
   -------------- */
 .author {
@@ -370,6 +417,12 @@ body {
 
   &-post {
       margin-bottom: .5rem;
+
+      &-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: .5rem;
+      }
 
       &-content {
         padding: 0.1rem;

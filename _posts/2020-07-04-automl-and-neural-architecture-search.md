@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AutoML and Neural Architecture Search"
+title: "AutoML and Neural Architecture Search2"
 description: "Paper review of EfficientNet from GoogleBrain and RandWire from Facebook AI Research (FAIR)"
 date: 2019-07-04
 categories: ["seminar", "research"]

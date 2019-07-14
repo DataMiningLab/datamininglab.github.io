@@ -4,22 +4,89 @@ title: Members
 ---
 
 <div clsas="members">
-    <div class="members-level">Undergraduate</div>
+    <div class="members-job">Professor</div>
+    <ul>
+    {% for member in site.authors %}
+    {% if member.job == 'professor' %}
+    <li>
+        <div class="members-info">
+            <a href="/authors/{{ member.name }}">
+            <span class="members-info-name">
+                {{member.name}}
+            </span><br>
+            {% if member.description %}
+            <span class="members-info-desc">
+                {{member.description}}
+            </span>
+            {% endif %}
+            </a>
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <div class="members-job">Graduate</div>
+    <ul>
+    {% for member in site.authors %}
+    {% if member.job == 'graduate' %}
+    <li>
+        <div class="members-info">
+            <a href="/authors/{{ member.name }}">
+                <span class="members-info-name">
+                    {{member.name}}
+                </span><br>
+                {% if member.description %}
+                <span class="members-info-desc">
+                    {{member.description}}
+                </span>
+                {% endif %}
+            </a>
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    <div class="members-job">Undergraduate</div>
+    <ul>
+    {% for member in site.authors %}
+    {% if member.job == 'undergraduate' %}
+    <li>
+        <div class="members-info">
+            <a href="/authors/{{ member.name }}">
+                <span class="members-info-name">
+                    {{member.name}}
+                </span><br>
+                {% if member.description %}
+                <span class="members-info-desc">
+                    {{member.description}}
+                </span>
+                {% endif %}
+            </a>
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    </ul>
+    <div class="members-job">Alumni</div>
     <ul>
         {% for member in site.authors %}
-        {% if member.grade == 'undergraduate' %}
-        <li class="members-info">
-            {{member.name}} - {{author.grade}}
-            <!-- {% if post.link %}
-            <a href="{{ post.link }}">
-                {% else %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
+        {% if member.job == 'alumni' %}
+        <li>
+            <div class="members-info">
+                <a href="/authors/{{ member.name }}">
+                    <span class="members-info-name">
+                        {{member.name}}
+                    </span><br>
+                    {% if member.description %}
+                    <span class="members-info-desc">
+                        {{member.description}}
+                    </span>
                     {% endif %}
-                    <span class="tag-post-title">{{ post.title }}</span>
-                </a> -->
+                </a>
+            </div>
         </li>
         {% endif %}
         {% endfor %}
     </ul>
-    </article>
 </div>

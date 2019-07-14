@@ -134,6 +134,23 @@ body {
     text-transform: uppercase;
   }
 
+  &-footer {
+      margin-top: 3em;
+      
+      &-file {
+        a {
+            font-size: .8rem;
+            text-decoration: underline;
+            margin-right: .5em;
+        }
+      }
+
+      &-author {
+        font-style: italic;
+        font-size: .8em;
+      }
+  }
+
    &-tag {
 
     ul {
@@ -179,27 +196,26 @@ body {
     }
   }
 
-  &-file {
-    margin-bottom: 1.5rem;
-    line-height: 1.2em;
+//   &-file {
+//     margin-bottom: 1.5rem;
+//     line-height: 1.2em;
 
-    img {
-        height: 1.2em;
-        float: left;
-        margin-right: .2em;
-    }
+//     img {
+//         height: 1.2em;
+//         float: left;
+//         margin-right: .2em;
+//     }
 
-    a {
-        font-size: .8rem;
-        text-decoration: underline;
-        margin-right: .5em;
-    }
-  }
+//     a {
+//         font-size: .8rem;
+//         text-decoration: underline;
+//         margin-right: .5em;
+//     }
+//   }
 
-  &-disqus {
-    margin-top: 4rem;
-  }
-
+//   &-disqus {
+//     margin-top: 4rem;
+//   }
 }
 
 /*--------------
@@ -402,12 +418,6 @@ body {
   -------------- */
 .author {
 
-  &-mark {
-      margin-top: 3em;
-      font-style: italic;
-      font-size: .8em;
-  }
-
   &-name {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -461,13 +471,7 @@ body {
             margin-left: .2rem;
         }
       }
-      &-file {
-        a {
-          text-decoration: underline;
-        }
-      }
     }
-
 }
 
 /*--------------
@@ -512,12 +516,6 @@ body {
             font-size: .75rem;
             // text-transform: uppercase;
             margin-left: .2rem;
-        }
-      }
-
-      &-file {
-        a {
-          text-decoration: underline;
         }
       }
     }
@@ -568,11 +566,6 @@ body {
             text-transform: uppercase;
         }
       }
-      &-file {
-        a {
-          text-decoration: underline;
-        }
-      }
     }
   }
 }
@@ -619,12 +612,6 @@ body {
             font-size: .75rem;
             // text-transform: uppercase;
             margin-left: .2rem;
-        }
-      }
-
-      &-file {
-        a {
-          text-decoration: underline;
         }
       }
     }

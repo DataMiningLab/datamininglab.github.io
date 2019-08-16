@@ -35,8 +35,8 @@ disqus:
   id:               ""
 
 # URL
-url:                "https://datamininglab.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
+#url:                "https://datamininglab.github.io" # the base hostname & protocol for your site
+url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
@@ -57,18 +57,20 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Members"
-    url:            "/members"
-  - name:           "News"
-    url:            "/news"
-  - name:           "Publication"
-    url:            "/publication"
-  - name:           "Seminar"
-    url:            "/seminar"
+  - name:           "People"
+    url:            "/people"
   - name:           "Research"
     url:            "/research"
+  - name:           "Publication"
+    url:            "/publication"
+  - name:           "News"
+    url:            "/news"
+  - name:           "Seminar"
+    url:            "/seminar"
   - name:           "Tags"
     url:            "/tags"
+  #- name:           "Events"
+  #  url:            "/events"
   # - name:           "Github"
   #   url:            "https://github.com/DataMiningLab"
 
@@ -104,7 +106,7 @@ plugins:
   - jekyll-paginate
   - jekyll-admin
 
-exclude:            [vendor]
+exclude:            [vendor, Form]
 
 future: true
 

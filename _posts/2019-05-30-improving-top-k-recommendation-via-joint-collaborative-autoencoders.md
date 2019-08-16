@@ -3,7 +3,7 @@ layout: post
 title: "Improving Top K Recommendation via Joint Collaborative Autoencoders"
 description: ""
 date: 2019-05-30
-categories: ["seminar", "research"]
+categories: ["seminar"]
 tags: ["autoencoder", "recommendation"]
 comments: true
 author: Seunghyeon Kim

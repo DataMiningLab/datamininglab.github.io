@@ -3,7 +3,7 @@ layout: post
 title: "Data Noising as Smoothing in Neural Network Language Models"
 description: ""
 date: 2019-07-04
-categories: ["seminar", "research"]
+categories: ["seminar"]
 tags: ["language model", "noising"]
 comments: true
 author: Kyungjin Moon

@@ -3,7 +3,7 @@ layout: post
 title: "Contextual Word Embeddings"
 description: ""
 date: 2019-06-27
-categories: ["seminar", "research"]
+categories: ["seminar"]
 tags: ["embeddings"]
 comments: true
 author: Heesoo Park
